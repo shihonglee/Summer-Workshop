@@ -1,0 +1,67 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{ShiHong}{Lee}
+\title{Institute for Marine and Antarctic Studies, IMAS}                               % optional, remove / comment the line if not wanted
+\address{50 Malachi Drive}{7050 Hobart}{Australia}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+61~(4)~2202~8952}                   % optional, remove / comment the line if not wanted
+\email{shihongl@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Alexandra Kraberg}{The Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research}
+\date{\today}
+\opening{Dear Madam,}
+\closing{Yours faithfully,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+In response to the courses and programs advertised at the institute website, enclosed is my r{\'e}sum{\'e} for the application of the Joint AWI-SAHFOS summer school, which entitled ``The importance of time series observations for the assessment of the biological and societal impacts of climate change". This summer school is a great opportunity for me to gain precious experience for my PhD research.  \linebreak\newline
+My main research objective is to investigate the annual microphytobenthic production and explain my observation throughout the year. I have measured the chlorophyll fluorescence and carbohydrate production of benthic microalgae fortnightly for six months and finishing my field sampling on January 2015. I am planning to produce my time series results with R, the programming tool which I am learning now from time to time.  \linebreak\newline
+This summer school workshop will greatly benefit me as it covers all the topics that are important to my research study, from experimental design, to data management, and then visualising the results with the most appropriate approach. This will also be a great opportunity for me to interact with experts and other students who attend the workshop. There will be much more than I could learn from the workshop too.  \linebreak\newline
+I have an introductory knowledge to R and python as programming tools. I also use R as my main results plotting and data analysis tool. Hence, this workshop will definitely boost my skills with R as programming tool even further and equip myself as a better scientist.  \linebreak\newline
+Enclosed is my r{\'e}sum{\'e} to provide you with more details of my skills, accomplishments and experience. I do wish that my application will be approved and so I can gain much more knowledge during my PhD study.  \linebreak\newline
+Thank you for your time and consideration. Please do not hesitate to contact me if you have any enquiries. \linebreak\newline
+\makeletterclosing
+\end{document}
+%% end of file `template.tex'.
